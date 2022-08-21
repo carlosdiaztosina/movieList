@@ -1,0 +1,52 @@
+.movieCard{
+    list-style: none;
+    text-align: center;
+}
+
+.movieCard:hover{
+    opacity: 0.6;
+}
+
+.movieImg{
+    border-radius: 2%;
+    background-color: white;
+}
+
+.movieTitle{
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+}
+
+.movieVote{
+    position: relative;
+    bottom: 45px;
+    right: 40%;
+    color: rgb(49, 248, 4);
+    font-size: 1.5em;
+}
+
+.starVote{
+    position: relative;
+    top:3px;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 40px;
+}
+
+@media (max-width: 560px){
+    .movieImg{
+        width: 85%;
+        height: auto;
+    }
+    
+    .movieTitle{
+        font-size: 1.3em;
+    }
+
+    .movieVote{
+        font-size: 1.2em;
+    }
+    
+}

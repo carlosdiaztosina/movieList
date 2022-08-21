@@ -1,0 +1,12 @@
+.empty{
+    text-align: center;
+    margin: 40px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+@media (max-width: 560px) {
+    .empty{
+        font-size: 2em;
+    }
+}
