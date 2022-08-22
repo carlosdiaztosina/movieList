@@ -24,7 +24,8 @@
     position: relative;
     bottom: 45px;
     right: 40%;
-    color: rgb(49, 248, 4);
+    color:yellow;
+    text-shadow: 2px 1px black;
     font-size: 1.5em;
 }
 
@@ -33,6 +34,7 @@
     top:3px;
     stroke: rgb(255, 255, 255);
     stroke-width: 40px;
+    margin-left: 5px;
 }
 
 @media (max-width: 560px){

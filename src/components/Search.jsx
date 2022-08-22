@@ -19,7 +19,7 @@ export function Search() {
         <input
           className={styles.searchInput}
           type="text"
-          placeholder="search..."
+          placeholder="Search..."
           value={search ?? ""}
           onChange={(e) => {
             const value = encodeURIComponent(e.target.value);

@@ -1,5 +1,6 @@
 import { MoviesList } from "../components/MoviesList";
 import { Search } from "../components/Search";
+import { SliderTv } from "../components/SliderTv";
 import { useDebounce } from "../hooks/useDebounce";
 import { useQuery } from "../hooks/useQuery";
 
@@ -12,6 +13,7 @@ export function LandingPage() {
   return (
     <div>
       <Search />
+      <SliderTv/>
       <MoviesList key={debounce} search={debounce}/>
     </div>
   );
