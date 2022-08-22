@@ -16,7 +16,7 @@ export function MovieCard({ movie }) {
           alt={movie.title}
         />
         <h3 className={styles.movieVote}>
-          {movie.vote_average}{" "}
+          {movie.vote_average}
           <span>
             <FaStar className={styles.starVote} color="yellow"/>
           </span>
